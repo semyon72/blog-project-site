@@ -1,0 +1,59 @@
+ERROR 2021-11-11 09:36:09,690 log 550 140202086352640 Internal Server Error: /accounts/staff/entry/3/
+Traceback (most recent call last):
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 64, in view
+    self.setup(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/blog-project/blog/views/base/__init__.py", line 33, in setup
+    if not any(1 for sufix in skips if purl.path.endswith('/'+sufix.rstrip('/'))):
+  File "/home/ox23/wsgi-scripts/blog-project/blog/views/base/__init__.py", line 33, in <genexpr>
+    if not any(1 for sufix in skips if purl.path.endswith('/'+sufix.rstrip('/'))):
+TypeError: endswith first arg must be bytes or a tuple of bytes, not str
+ERROR 2021-11-11 09:39:07,650 log 550 140202061174528 Internal Server Error: /accounts/staff/entry/3/text/3/update/
+Traceback (most recent call last):
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/blog-project/sm_flexdata/views/generic/multi.py", line 180, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 194, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 126, in form_valid
+    return super().form_valid(form)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 57, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/ox23/wsgi-scripts/blog-project/blog/views/base/entrywithtext.py", line 135, in get_success_url
+    if url and self.request.preaction_url.startswith(url):
+AttributeError: 'WSGIRequest' object has no attribute 'preaction_url'
+ERROR 2021-11-11 09:39:29,294 log 551 140202061174528 Internal Server Error: /accounts/staff/entry/3/text/3/update/
+Traceback (most recent call last):
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/blog-project/sm_flexdata/views/generic/multi.py", line 180, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 194, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 126, in form_valid
+    return super().form_valid(form)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 57, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/ox23/wsgi-scripts/blog-project/blog/views/base/entrywithtext.py", line 135, in get_success_url
+    if url and self.request.preaction_url.startswith(url):
+AttributeError: 'WSGIRequest' object has no attribute 'preaction_url'

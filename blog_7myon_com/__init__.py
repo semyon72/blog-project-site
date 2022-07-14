@@ -1,0 +1,1 @@
+/home/ox23/wsgi-scripts/test-blog-project/blog_7myon_com/__init__.py

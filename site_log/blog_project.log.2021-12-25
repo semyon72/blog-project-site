@@ -1,0 +1,46 @@
+ERROR 2021-12-27 09:43:21,107 log 543 140221240018688 Internal Server Error: /accounts/staff/entry/10/text/12/update/
+Traceback (most recent call last):
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/blog-project/sm_flexdata/views/generic/multi.py", line 180, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 194, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 126, in form_valid
+    return super().form_valid(form)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 57, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/ox23/wsgi-scripts/blog-project/blog/views/base/entrywithtext.py", line 135, in get_success_url
+    if url and self.request.preaction_url.startswith(url):
+AttributeError: 'WSGIRequest' object has no attribute 'preaction_url'
+ERROR 2021-12-27 09:43:28,648 log 543 140221265196800 Internal Server Error: /accounts/staff/entry/10/text/12/update/
+Traceback (most recent call last):
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/blog-project/sm_flexdata/views/generic/multi.py", line 180, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 194, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 126, in form_valid
+    return super().form_valid(form)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/edit.py", line 57, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "/home/ox23/wsgi-scripts/blog-project/blog/views/base/entrywithtext.py", line 135, in get_success_url
+    if url and self.request.preaction_url.startswith(url):
+AttributeError: 'WSGIRequest' object has no attribute 'preaction_url'

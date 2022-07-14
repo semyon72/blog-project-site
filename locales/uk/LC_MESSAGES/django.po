@@ -1,0 +1,692 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-03 10:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: blog/forms/base/entry.py:51
+msgid "end of publishing"
+msgstr "кінець публікації"
+
+#: blog/forms/base/entry.py:58
+msgid "end of modification"
+msgstr "кінець модифікації"
+
+#: blog/models.py:38
+msgid "Email used at registration stage"
+msgstr "Використаний Email на етапі реєстрації"
+
+#: blog/models.py:45
+msgid "Registration was requested"
+msgstr "Реєстрацію було витребувано"
+
+#: blog/models.py:51
+msgid "Registration was confirmed"
+msgstr "Реєстрацію було підтверджено"
+
+#: blog/models.py:58
+msgid "Registration is active"
+msgstr "Реєстрація все ще активна"
+
+#: blog/models.py:71
+msgid "Blog's name"
+msgstr "Назва блогу"
+
+#: blog/models.py:77
+msgid "Tagline"
+msgstr "Слоган"
+
+#: blog/models.py:95
+msgid "Author's name"
+msgstr "Ім'я автору"
+
+#: blog/models.py:100
+msgid "Email address"
+msgstr "Поштова адреса"
+
+#: blog/models.py:112
+msgid "Blog"
+msgstr "Блог"
+
+#: blog/models.py:118 blog/views/public/contact.py:27
+msgid "Author"
+msgstr "Автор"
+
+#: blog/models.py:127
+msgid "Co-author"
+msgstr "Спів-автор"
+
+#: blog/models.py:131
+msgid "Entry's headline"
+msgstr "Заголовок входження"
+
+#: blog/models.py:139
+msgid "Creation"
+msgstr "Утворено"
+
+#: blog/models.py:144 blog/models.py:180
+msgid "Published"
+msgstr "Опубліковано"
+
+#: blog/models.py:149 blog/models.py:185
+msgid "Modified"
+msgstr "Модифіковано"
+
+#: blog/models.py:156 blog/models.py:197
+msgid "Inactive"
+msgstr "Не активне"
+
+#: blog/models.py:166
+msgid "Entry"
+msgstr "Входження"
+
+#: blog/models.py:168
+msgid "Text of entry"
+msgstr "Текст входження"
+
+#: blog/models.py:170
+msgid "Entry's text"
+msgstr "Текст входження"
+
+#: blog/models.py:190
+msgid "Comment"
+msgstr "Коментар"
+
+#: blog/models.py:209
+msgid "Comments' amount"
+msgstr "Всього коментарів"
+
+#: blog/models.py:214
+msgid "Pingbacks' amount"
+msgstr "Всього зовнішних посилань"
+
+#: blog/models.py:219
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: blog/templates/blog/auth/registration/logged_out.html:5
+#: templates/blog/public_site_nav.html:12
+msgid "Home"
+msgstr "До дому"
+
+#: blog/templates/blog/auth/registration/logged_out.html:10
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr "Дякуємо за те, що сьогодні провели час із веб-сайтом. "
+
+#: blog/templates/blog/auth/registration/logged_out.html:13
+msgid "Log in again"
+msgstr "Увійдіть знову "
+
+#: blog/templates/blog/auth/registration/login.html:8
+#, python-format
+msgid ""
+"You are authenticated as \"<b>%(username)s</b>\", but, probably, are not "
+"authorized to access to the requested page. Would you like to login to a "
+"different account?"
+msgstr ""
+"Ви пройшли автентифікацію як \"<b>%(username)s</b>\", але, ймовірно, не "
+"маєте прав на доступ до запитаної сторінки. Бажаєте увійти в інший обліковий "
+"запис?"
+
+#: blog/templates/blog/auth/registration/password_change_done.html:5
+msgid "Your password was changed."
+msgstr "Ваш пароль було змінено"
+
+#: blog/templates/blog/auth/registration/password_change_form.html:7
+msgid ""
+"Please enter your old password, for security’s sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+"Будь ласка, введіть свій старий пароль з міркувань безпеки, а потім введіть "
+"новий пароль двічі, щоб ми могли перевірити, що ви ввели його правильно."
+
+#: blog/templates/blog/auth/registration/password_reset_complete.html:7
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "Ваш пароль встановлено. Ви можете продовжити та увійти зараз."
+
+#: blog/templates/blog/auth/registration/password_reset_confirm.html:8
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+"Будь ласка введіть Ваш новий пароль пароль двічі, щоб ми могли перевірити, "
+"що ви ввели його правильно."
+
+#: blog/templates/blog/auth/registration/password_reset_confirm.html:17
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+"Посилання для скидання пароля було недійсним, можливо, тому, що воно вже "
+"використовувалося. Будьласка подайте запит на скидання нового пароля."
+
+#: blog/templates/blog/auth/registration/password_reset_done.html:6
+msgid ""
+"We’ve emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+"Ми надіслали вам інструкції щодо встановлення пароля, якщо з введеною вами "
+"електронною поштою існує Ваш обліковий запис. Ви повинні отримати їх "
+"найближчим часом."
+
+#: blog/templates/blog/auth/registration/password_reset_done.html:7
+msgid ""
+"If you don’t receive an email, please make sure you’ve entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+"Якщо ви не отримали електронного листа, переконайтеся, що ви ввели правильну "
+"адресу, на яку ви зареєструвалися, і перевірте папку зі спамом."
+
+#: blog/templates/blog/auth/registration/password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+"Ви отримали цей електронний лист, оскільки подали запит на скидання пароля "
+"для свого облікового запису користувача на %(site_name)s."
+
+#: blog/templates/blog/auth/registration/password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr "Будь ласка, перейдіть на наступну сторінку та оберіть новий пароль:"
+
+#: blog/templates/blog/auth/registration/password_reset_email.html:8
+#: blog/templates/blog/auth/registration/user_registration_email.html:8
+msgid "Your username, in case you’ve forgotten:"
+msgstr "Ваше ім’я користувача, якщо ви забули:"
+
+#: blog/templates/blog/auth/registration/password_reset_email.html:10
+#: blog/templates/blog/auth/registration/user_registration_email.html:10
+msgid "Thanks for using our site!"
+msgstr "Дякуємо за використання нашого сайту!"
+
+#: blog/templates/blog/auth/registration/password_reset_email.html:12
+#: blog/templates/blog/auth/registration/user_registration_email.html:12
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "Команда %(site_name)s"
+
+#: blog/templates/blog/auth/registration/password_reset_form.html:7
+msgid ""
+"Forgotten your password? Enter your email address below, and we’ll email "
+"instructions for setting a new one."
+msgstr ""
+"Забули пароль? Введіть свою електронну адресу нижче, і ми надішлемо "
+"електронною поштою інструкції щодо налаштування нового."
+
+#: blog/templates/blog/auth/registration/password_reset_subject.txt:2
+#, python-format
+msgid "Password reset on %(site_name)s"
+msgstr "Скидання паролю на %(site_name)s"
+
+#: blog/templates/blog/auth/registration/user_registration_confirm_error.html:7
+msgid ""
+"The registration confirm link was invalid or user hasn't been registered yet."
+msgstr ""
+"Посилання для підтвердження реєстрації було недійсним або користувача ще не "
+"зареєстровано."
+
+#: blog/templates/blog/auth/registration/user_registration_confirm_error.html:8
+msgid "Use copy+paste into browser's url string to avoid mistakes."
+msgstr ""
+"Використовуйте копіювати+вставити в рядок URL-адреси браузера, щоб уникнути "
+"помилок."
+
+#: blog/templates/blog/auth/registration/user_registration_done.html:6
+msgid "Confirmation email was send to you."
+msgstr "Вам надіслано підтвердження електронною поштою. "
+
+#: blog/templates/blog/auth/registration/user_registration_done.html:7
+msgid ""
+"You must use confirmation link for confirmation your email address and "
+"registration in whole."
+msgstr ""
+"Ви повинні використовувати посилання для підтвердження, для підтвердження "
+"адреси електронної пошти та реєстрації в цілому."
+
+#: blog/templates/blog/auth/registration/user_registration_email.html:2
+#, python-format
+msgid ""
+"You're receiving this email because you started a registration at "
+"%(site_name)s."
+msgstr ""
+"Ви отримали цей електронний лист, оскільки почали реєстрацію за адресою "
+"%(site_name)s."
+
+#: blog/templates/blog/auth/registration/user_registration_email.html:4
+msgid "Please go to the following page for confirmation your email:"
+msgstr ""
+"Будь ласка, перейдіть на наступну сторінку для підтвердження Вашої "
+"електронної пошти:"
+
+#: blog/templates/blog/auth/registration/user_registration_subject.txt:2
+#, python-format
+msgid "Account creation on %(site_name)s"
+msgstr "Створення облікового запису на %(site_name)s"
+
+#: blog/templates/blog/base/author/author_detail_info.html:3
+msgid "Author's information"
+msgstr "Інформація щодо автору"
+
+#: blog/templates/blog/base/author/author_detail_info.html:6
+msgid "Authentication username"
+msgstr "Ім'я користувача при автентифікації"
+
+#: blog/templates/blog/base/author/author_detail_info.html:7
+msgid "Public email"
+msgstr "Публічна поштова адреса"
+
+#: blog/templates/blog/base/author/author_detail_info.html:11
+#: blog/templates/blog/base/author/author_item.html:11
+#: blog/templates/blog/base/blog/blog_detail_info.html:10
+msgid "Total entries"
+msgstr "Всього входжень"
+
+#: blog/templates/blog/base/author/author_detail_info.html:14
+#: blog/templates/blog/base/author/author_item.html:14
+#: blog/templates/blog/base/blog/blog_item_list.html:2
+#: blog/templates/blog/site_nav.html:11
+msgid "Blogs"
+msgstr "Блоги"
+
+#: blog/templates/blog/base/author/author_item_list.html:2
+#: blog/templates/blog/base/blog/blog_detail_info.html:13
+#: blog/templates/blog/site_nav.html:10
+#, fuzzy
+#| msgid "Author"
+msgid "Authors"
+msgstr "Автори"
+
+#: blog/templates/blog/base/author/author_item_list_header.html:3
+#: blog/templates/blog/base/blog/blog_item_list_header.html:3
+#: blog/views/public/contact.py:33
+msgid "Name"
+msgstr "Ім'я"
+
+#: blog/templates/blog/base/author/author_item_list_header.html:4
+#: blog/templates/blog/base/blog/blog_item_list_header.html:4
+msgid "Info"
+msgstr "Інформація"
+
+#: blog/templates/blog/base/author/author_item_list_header.html:4
+#: blog/templates/blog/base/blog/blog_item_list_header.html:4
+msgid "include inactive entries"
+msgstr "включно з не активними входженнями"
+
+#: blog/templates/blog/base/author/author_item_list_header.html:5
+#: blog/templates/blog/base/blog/blog_item_list_header.html:5
+msgid "Actions"
+msgstr "Дія"
+
+#: blog/templates/blog/base/author/delete.html:6
+msgid ""
+"Do you really want to delete Author's item and all related entries with "
+"texts?"
+msgstr ""
+"Ви дійсно бажаєте видалити Автора та усі пов'язані з ним входження та тексти?"
+
+#: blog/templates/blog/base/blog/blog_detail_info.html:3
+msgid "Blog's information"
+msgstr "Інформація щодо блогу"
+
+#: blog/templates/blog/base/blog/blog_detail_info.html:6
+#, fuzzy
+#| msgid "Tagline"
+msgid "tagline"
+msgstr "Слоган"
+
+#: blog/templates/blog/base/blog/delete.html:6
+msgid ""
+"Do you really want to delete Blog's item and all related entries with texts?"
+msgstr ""
+"Ви дійсно бажаєте видалити Блог та усі пов'язані з ним входження та тексти?"
+
+#: blog/templates/blog/base/entry/delete.html:6
+msgid ""
+"Do you really want to delete Entry's item and all depending parts include "
+"texts?"
+msgstr ""
+"Ви дійсно бажаєте видалити Входження та усі пов'язані з ним частини "
+"включаючи тексти?"
+
+#: blog/templates/blog/base/entry/entry_coauthor_item_list.html:5
+#: blog/templates/blog/base/entry/entry_item_list.html:8
+#: blog/templates/blog/base/entrytext/entrytext_item_list.html:8
+#: blog/templates/blog/base/entrywithtext/entrywithtext_item_list.html:5
+#: blog/templates/blog/base/entrywithtext/entrywithtext_tab_list.html:38
+#: blog/templates/blog/public/entry_list.html:8
+msgid "No data"
+msgstr "Дані відсутні"
+
+#: blog/templates/blog/base/entry/entry_date_info.html:4
+msgid "mod_date"
+msgstr ""
+
+#: blog/templates/blog/base/entry/entry_date_info.html:7
+msgid "create_date"
+msgstr ""
+
+#: blog/templates/blog/base/entry/entry_date_info.html:8
+msgid "pub_date"
+msgstr ""
+
+#: blog/templates/blog/base/entry/entry_detail_info.html:5
+msgid "Entry is not active"
+msgstr "Входження не активне"
+
+#: blog/templates/blog/base/entry/entry_detail_info.html:10
+#: blog/templates/blog/base/entry/entry_item.html:5
+#: blog/templates/blog/public/entry_detail.html:16
+msgid "headline"
+msgstr "заголовок"
+
+#: blog/templates/blog/base/entry/entry_info_noheadline.html:5
+msgid "blog"
+msgstr "Блог"
+
+#: blog/templates/blog/base/entry/entry_info_noheadline.html:8
+msgid "author"
+msgstr "Автор"
+
+#: blog/templates/blog/base/entry/entry_info_noheadline.html:14
+#: blog/templates/blog/base/entry/entry_info_noheadline.html:21
+msgid "coauthors"
+msgstr "Спів-автори"
+
+#: blog/templates/blog/base/entry/entry_item_list.html:2
+#: blog/templates/blog/site_nav.html:12
+msgid "Entries"
+msgstr "Входження"
+
+#: blog/templates/blog/base/entrytext/delete.html:7
+#: blog/templates/blog/base/entrywithtext/delete.html:7
+msgid "Do you really want to delete Text item of entry?"
+msgstr "Ви дійсно бажаєте видалити Текст входження?"
+
+#: blog/templates/blog/base/entrytext/entrytext_item_list.html:2
+#: blog/templates/blog/site_nav.html:14
+msgid "Texts of entries"
+msgstr "Тексти входжень"
+
+#: blog/templates/blog/base/entrywithtext/entrywithtext_tab_list.html:14
+#: blog/views/base/content_tools.py:16
+msgid "Create"
+msgstr "Утворити"
+
+#: blog/templates/blog/base/filter_form.html:5
+msgid "Hide/Show filter"
+msgstr "Приховати/Показати фільтр"
+
+#: blog/templates/blog/base/filter_form.html:5
+msgid "filter is active"
+msgstr "фільтр активовано"
+
+#: blog/templates/blog/base/paginator.html:8
+msgid "first"
+msgstr "перша"
+
+#: blog/templates/blog/base/paginator.html:13
+msgid "previous"
+msgstr "попередня"
+
+#: blog/templates/blog/base/paginator.html:19
+msgid "Page"
+msgstr "Сторінка"
+
+#: blog/templates/blog/base/paginator.html:19
+msgid "of"
+msgstr "з"
+
+#: blog/templates/blog/base/paginator.html:25
+msgid "next"
+msgstr "наступна"
+
+#: blog/templates/blog/base/paginator.html:30
+msgid "last"
+msgstr "остання"
+
+#: blog/templates/blog/base/profile/edit.html:5
+msgid "Edit profile"
+msgstr "Редагувати профіль"
+
+#: blog/templates/blog/public/about.html:2
+msgid "About Me"
+msgstr "Про Мене"
+
+#: blog/templates/blog/public/author_aside.html:12
+msgid "Author aside content is empty"
+msgstr "Дані щодо Авторів відсутні"
+
+#: blog/templates/blog/public/blog_aside.html:12
+msgid "Blog aside content is empty"
+msgstr "Дані щодо Блогів відсутні"
+
+#: blog/templates/blog/public/contact/contact_form.html:5
+msgid "Submit"
+msgstr "Виконати"
+
+#: blog/templates/blog/public/contact/contact_form_email.html:2
+#: blog/templates/blog/public/contact/contact_form_email.txt:2
+msgid "You have massage from"
+msgstr "Ви отримали повідомлення з"
+
+#: blog/templates/blog/public/contact/contact_success.html:7
+msgid ""
+"\n"
+"    <h3>Oooops - nothing happened before.</h3>\n"
+"    <p>Probably, you are used a direct link of this page or page was "
+"refreshed.</p>\n"
+"    <p>If you want to send email then use 'Contact' link of main menu.</p>\n"
+msgstr ""
+"\n"
+"    <h3>Oooops - Досі нічого не відбулось.</h3>\n"
+"    <p>Ймовірно, Ви використали пряме посилання на цю сторінку або сторінку "
+"було оновлено.</p>\n"
+"    <p>Як що Ви бажаєте відправити email то використовуйте \"Зв'язок\" "
+"посилання в головному меню.</p>\n"
+
+#: blog/templates/blog/public/contact/contact_success_message.html:2
+msgid "Your message was sent successfully."
+msgstr "Ваше повідомлення було успішно надіслано."
+
+#: blog/templates/blog/public/entry_detail.html:15
+msgid "Found in"
+msgstr "Знайдено в"
+
+#: blog/templates/blog/public/entry_detail.html:17
+msgid "texts"
+msgstr "текстів"
+
+#: blog/templates/blog/public/entry_detail.html:33
+#, fuzzy
+#| msgid "Detail"
+#| msgid_plural "Detail"
+msgid "Details"
+msgstr "Деталі"
+
+#: blog/templates/blog/public/entry_detail.html:38
+msgid "Show/hide found"
+msgstr "Показати/приховати знайдене"
+
+#: blog/templates/blog/public/entry_detail.html:51
+msgid "No texts for this entry."
+msgstr "Вітсутні тексти для цих входжень."
+
+#: blog/templates/blog/public/entry_detail.html:55
+msgid "Text"
+msgstr "Текст"
+
+#: blog/templates/blog/public/index.html:9
+msgid "All entries"
+msgstr "Всі входження"
+
+#: blog/templates/blog/public/index.html:16
+msgid "Blogs with recently added entries"
+msgstr "Блоги з нещодавно доданими входженнями"
+
+#: blog/templates/blog/public/index.html:25
+msgid "Authors with recently added entries"
+msgstr "Автори з нещодавно доданими входженнями"
+
+#: blog/templates/blog/site_nav.html:13
+msgid "Entries along with texts"
+msgstr "Входження разом з текстами"
+
+#: blog/templates/blog/site_nav.html:19 blog/views/base/content_tools.py:76
+msgid "Reset password"
+msgstr "Скинути пароль"
+
+#: blog/templates/blog/site_nav.html:20
+msgid "Registration"
+msgstr "Реєстрація"
+
+#: blog/templates/blog/site_nav.html:21
+msgid "Log in"
+msgstr "Вхід"
+
+#: blog/templates/blog/site_nav.html:23
+msgid "Profile"
+msgstr "Профіль"
+
+#: blog/templates/blog/site_nav.html:24 blog/views/base/content_tools.py:71
+msgid "Change password"
+msgstr "Змінити пароль"
+
+#: blog/templates/blog/site_nav.html:25
+msgid "Log out"
+msgstr "Вихід"
+
+#: blog/views/base/auth.py:54
+msgid "User registration"
+msgstr "Реєстрація користувача"
+
+#: blog/views/base/auth.py:60
+msgid "User registration request sent"
+msgstr "Запит на реєстрацію користувача надіслано"
+
+#: blog/views/base/auth.py:70
+msgid "Registration confirmation error"
+msgstr "Помилка підтвердження реєстрації"
+
+#: blog/views/base/auth.py:154
+msgid "Registration confirmation unsuccessful"
+msgstr "Не вдалося підтвердити реєстрацію"
+
+#: blog/views/base/content_tools.py:21
+msgid "Delete"
+msgstr "Видалити"
+
+#: blog/views/base/content_tools.py:26
+msgid "Edit"
+msgstr "Редагувати"
+
+#: blog/views/base/content_tools.py:31
+msgid "Update"
+msgstr "Змінити"
+
+#: blog/views/base/content_tools.py:36
+#, fuzzy
+#| msgid "Detail"
+#| msgid_plural "Detail"
+msgid "Detail"
+msgstr "Деталі"
+
+#: blog/views/base/content_tools.py:41
+msgid "Filter"
+msgstr "Фільтр"
+
+#: blog/views/base/content_tools.py:46
+msgid "List"
+msgstr "Список"
+
+#: blog/views/base/content_tools.py:51
+msgid "Back to list"
+msgstr "Повернутись до списку"
+
+#: blog/views/base/content_tools.py:56
+msgid "Login"
+msgstr "Увійти"
+
+#: blog/views/base/content_tools.py:61
+msgid "Logout"
+msgstr "Вийти"
+
+#: blog/views/base/content_tools.py:66
+msgid "Sign Up"
+msgstr "Зареєструватись"
+
+#: blog/views/base/profile.py:37
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr "Не знайдено %(verbose_name)s, що відповідає запиту"
+
+#: blog/views/public/contact.py:28
+msgid "select an author"
+msgstr "оберіть автора"
+
+#: blog/views/public/contact.py:34
+msgid "your name"
+msgstr "ім'я автору"
+
+#: blog/views/public/contact.py:39
+msgid "Email"
+msgstr "Поштова адреса"
+
+#: blog/views/public/contact.py:40
+msgid "your email address"
+msgstr "ваша поштова адреса"
+
+#: blog/views/public/contact.py:45
+msgid "Headline"
+msgstr "Заголовок"
+
+#: blog/views/public/contact.py:46
+msgid "short description of message"
+msgstr "скорочений опис повідомлення"
+
+#: blog/views/public/contact.py:52
+msgid "Message"
+msgstr "Повідомлення"
+
+#: blog/views/public/contact.py:53
+msgid "message"
+msgstr "повідомлення"
+
+#: blog/views/public/contact.py:102
+msgid "Something went wrong. Message was not sent."
+msgstr "Щось пішло не так. Повідомлення не було відправлено."
+
+#: sm_flexdata/html/form_elements.py:496
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr "(Приховане поле %(name)s) %(error)s"
+
+#: templates/blog/public_site_nav.html:15
+msgid "About"
+msgstr "Про сайт"
+
+#: templates/blog/public_site_nav.html:18
+msgid "Contact"
+msgstr "Зв'язок"
+
+#: templates/blog/public_site_nav.html:23
+#: templates/blog/public_site_nav.html:24
+msgid "Search"
+msgstr "Пошук"

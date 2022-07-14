@@ -1,0 +1,13 @@
+ERROR 2022-01-30 08:53:37,004 log 554 139670639634176 Internal Server Error: /accounts/staff/entry/23/
+Traceback (most recent call last):
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ox23/wsgi-scripts/test-blog-project/.venv/lib/python3.9/site-packages/django/views/generic/base.py", line 64, in view
+    self.setup(request, *args, **kwargs)
+  File "/home/ox23/wsgi-scripts/blog-project/blog/views/base/__init__.py", line 33, in setup
+    if not any(1 for sufix in skips if purl.path.endswith('/'+sufix.rstrip('/'))):
+  File "/home/ox23/wsgi-scripts/blog-project/blog/views/base/__init__.py", line 33, in <genexpr>
+    if not any(1 for sufix in skips if purl.path.endswith('/'+sufix.rstrip('/'))):
+TypeError: endswith first arg must be bytes or a tuple of bytes, not str
